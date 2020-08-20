@@ -15,7 +15,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-    animation: bodyshake linear .9s infinite;
+    animation: bodyshake linear 4s infinite;
 
 }
 .track{
@@ -24,7 +24,7 @@ body{
     background-image: url(trac.png);
     position: absolute;
     top:85vh;
-    animation: carmove linear .5s infinite;
+    animation: carmove linear .9s infinite;
 
 
 }
@@ -108,6 +108,6 @@ body{
 }
 @keyframes car{
     100%{
-        transform: translate(500vw);
+        transform: translate(200vw);
     }
 }
